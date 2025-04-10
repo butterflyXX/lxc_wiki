@@ -77,7 +77,9 @@ void mayNeedDispose() {
 ```
 这里看到,在条件成熟的时候会执行`_container.scheduler.scheduleProviderDispose(this)`
 这个时候我们在`mayNeedDispose`打断点,就会发现这样的调用栈
+
 ![image.png](https://upload-images.jianshu.io/upload_images/5976114-8b6c3804ea850159.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 熟悉的`ConsumerStatefulElement`和`unmount`方法,这个是在`widgetElement`从`Element tree`移除时调用的
 ```dart
 void unmount() {
