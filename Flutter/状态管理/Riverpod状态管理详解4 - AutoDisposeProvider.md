@@ -1,3 +1,5 @@
+[← 返回状态管理目录](README.md)
+
 `AutoDispose`就是会自动销毁的`provider`,这样说是不严谨的,应该是自动销毁的`providerElement`
 之前文章说了实际管理状态是通过`providerElement`,这里通过`AutoDisposeStateProvider`看下内部的继承关系
 ```dart

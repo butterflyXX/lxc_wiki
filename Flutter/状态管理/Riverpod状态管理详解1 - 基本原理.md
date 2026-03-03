@@ -1,3 +1,5 @@
+[← 返回状态管理目录](README.md)
+
 ```Riverpod```数据共享也是使用了```InheritedWidget```,在项目中,runapp外层要嵌套一个```ProviderScope```
 ```
 void main() {

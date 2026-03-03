@@ -1,3 +1,5 @@
+[← 返回状态管理目录](README.md)
+
 在使用Riverpod时候,我们常常会对比`Widget`来说,因为他们很像都有自己的`Element`,但是从今天要讲的内容来说,他们有一个很重要的不同点是:
 **一个`Widget`可以对应多个`WidgetElement`,而一个`provider`只能对应一个`ProviderElement`**
 `Provider`和他的`Element`是一对一的关系,这里说的不严谨,有`Provider`不一定要有`Element`,但是一个`Provider`只能对应一个`Element`,理解这一点很重要,这里我们先从代码角度看下为什么会出现这种1v1的关系

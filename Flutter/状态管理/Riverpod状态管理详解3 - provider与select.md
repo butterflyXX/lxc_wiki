@@ -1,3 +1,5 @@
+[← 返回状态管理目录](README.md)
+
 在使用riverpod时候,如果我们的state是个对象,比如`Person`,有两个属性`name`和`age`,我们只修改了`age`,如果只使用`ref.watch(personStateProvider)`,会造成仅仅使用`name`的组件也被刷新
 ```dart
 final personStateProvider = StateProvider<Person>((ref) {
