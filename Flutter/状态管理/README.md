@@ -2,7 +2,12 @@
 
 ## 📚 文档索引
 
+### 学习指南
+- [Riverpod 源码分析指南](Riverpod源码分析指南.md) - 系统性的源码阅读路径和方法
+
+### 系列教程
 - [Riverpod 状态管理详解 1 - 基本原理](Riverpod状态管理详解1%20-%20基本原理.md)
+- [Riverpod 状态管理详解 2 - ConsumerStatefulWidget](Riverpod状态管理详解2%20-%20ConsumerStatefulWidget.md)
 - [Riverpod 状态管理详解 2 - provider 与 notifier](Riverpod状态管理详解2%20-%20provider与notifier.md)
 - [Riverpod 状态管理详解 3 - provider 与 select](Riverpod状态管理详解3%20-%20provider与select.md)
 - [Riverpod 状态管理详解 4 - AutoDisposeProvider](Riverpod状态管理详解4%20-%20AutoDisposeProvider.md)
